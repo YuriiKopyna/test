@@ -1,0 +1,20 @@
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.bees {
+    display: flex;
+    justify-content: space-between;
+}
+.a, .b, .c {
+    width: 330px;
+    border: 1px solid #959595;
+    display: block;
+    height: 350px;
+}
+@media (max-width: 1020px) {
+    .bees {
+        display: flex;
+        flex-direction: column;
+    }
+}
