@@ -20,6 +20,8 @@ footer h1 {
 }
 #bees-info {
     background: rgba(0, 0, 0, 0.33);
+    text-align: justify;
+    font-size: x-large
 }
 .a, .b, .c {
     width: 330px;
