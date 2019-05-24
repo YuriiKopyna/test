@@ -9,16 +9,16 @@ let circle = function (x, y, radius, fillCircle) {
 }
 
 let drawBee = function (x, y) {
-	ctx.lineWidth = 2;
+	ctx.lineWidth = 3;
 	ctx.strokeStyle = "Black";
 	ctx.fillStyle = "Gold";
 
-	circle(x, y, 8, true);
-	circle(x, y, 8, false);
-	circle(x - 5, y - 11, 5, false);
-	circle(x + 5, y - 11, 5, false);
-	circle(x - 2, y - 1, 2, false);
-	circle(x + 2, y - 1, 2, false);
+	circle(x, y, 16, true);
+	circle(x, y, 16, false);
+	circle(x - 10, y - 22, 10, false);
+	circle(x + 10, y - 22, 10, false);
+	circle(x - 4, y - 2, 4, false);
+	circle(x + 4, y - 2, 4, false);
 
 }
 
